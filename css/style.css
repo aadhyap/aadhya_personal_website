@@ -175,8 +175,7 @@ img {
   column-gap: 15px;
   row-gap: 15px;
   padding: 16px;
-  background: plum;
-  border: 4px solid indigo;
+
 
   
 
@@ -208,6 +207,7 @@ img {
   max-width: 100%;
   max-height: 100%;
   border-radius: 10px;
+  height: 100px;
 
  
  
@@ -256,6 +256,7 @@ img {
 .tools-used-container{
   display: flex;
   gap: 6px;
+  flex-wrap: wrap;
   
 }
 
@@ -266,6 +267,7 @@ img {
   border: 1px solid #75FCC0;
   font-size: 15px;
   color: #75FCC0;
+  
 }
 
 
