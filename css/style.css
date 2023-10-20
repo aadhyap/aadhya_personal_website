@@ -161,6 +161,12 @@ img {
   margin-top: 200px;
 }
 
+.project-section{
+  padding-left: 190px;
+  
+
+}
+
 
 .project-container{
   display: flex;
@@ -185,7 +191,9 @@ img {
 
   padding: 10px; 
   border-radius: 10px;
-  border: 1px solid brown;
+  color: #75FCC0;
+  border: 1px solid ;
+  filter: drop-shadow(-5px 3px  5px);
   
   
 }
@@ -242,6 +250,7 @@ img {
 .arrow{
   font-family: "system-ui",-apple-system,BlinkMacSystemFont,Arial;
   margin-right: 10px;
+  color: #75FCC0;
 }
 
 .tools-used-container{
@@ -251,10 +260,12 @@ img {
 }
 
 .tools-used-container p{
-  background-color: #75FCC0;
+  background-color: rgba(117,252,192,.5);
   border-radius: 10px;
   padding: 3px;
-  border: 1px solid brown;
+  border: 1px solid #75FCC0;
+  font-size: 15px;
+  color: #75FCC0;
 }
 
 
