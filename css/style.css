@@ -106,7 +106,7 @@ a {
 
 .intro{
   display:flex;
-  flex-basis: 600px;
+  flex-basis: 605px;
   flex-direction: column;
   text-align: left;
   margin-left: 120px;
@@ -247,11 +247,17 @@ img {
   margin-top: 5px;
   
 }
+
+
 .arrow{
   font-family: "system-ui",-apple-system,BlinkMacSystemFont,Arial;
   margin-right: 10px;
   color: #75FCC0;
 }
+
+
+
+
 
 .tools-used-container{
   display: flex;
@@ -270,6 +276,16 @@ img {
   
 }
 
+.tools-used-container.vision-color p{
+  color:#E35D75;
+  border: 1px solid #E35D75;
+  background-color: rgba(227,93,117,.5);
+}
+.vision-color{
+  color:#E35D75;
+
+
+}
 
 
 /* These are notes from odin project */

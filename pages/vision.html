@@ -7,24 +7,114 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aadhya Puttur</title>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 
 
 <body>
-  <div>
-  <img src="../images/logo.png" alt="logo" id="logo">
-  <img src="images/logo.png" alt="logo" class="icon" >
-  <img src="../images/pinkprofilepic.png" alt="profile picture" height="310" width="310" >
-  <div class="intro">
-    <div class="title">Hi I'm Aadhya</div>
-    <div class="medium">I am a <a href="../index.html" class="vision">computer vision engineer</a></div>
-    <div class="small">I like understanding how technology sees and <span class="vision">interprets visual input</span> </div>
-      <div class="small"> I&#39ve replicated popular computer vision methods through my <span class="vision">graduate course</span></div>
+
+
+<div class = "container">
+  <nav class='menu-container'>
+      <img src="../images/logo.png" alt="logo" class = "logo" >
+      <div class="menu-links small">
+        <a href="#Projects">Projects</a>
+        <a href="./images/aadhyaresume.pdf">Resume</a>
+    </div>
+  </nav>
+
+  <div class="header-container">
+
+    <div class="profile"><img src="../images/pinkprofilepic.png" alt="profile picture"> </div>
+
+    <div class="intro">
+      <p class="title">Hi I'm Aadhya</p>
+      <p class="medium">I am a <a href="../index.html" class="vision">computer vision engineer</a></p>
+      <p class="small">I like understanding how technology sees and <span class="vision">interprets visual input</span></p>
+      <p class="small"> I&#39ve replicated popular computer vision methods through my<span class="vision"> graduate course</span></p>
+
+      <div class="icons"><a href="https://linkedin.com/in/aadhyaputtur/"><img src="../images/linkedinpink.png" alt="LinkedIn" class="icon" ></a>
+        <a href="https://github.com/aadhyap"><img src="../images/githubpink.png" alt="git" class="icon"></a> </div>
+    </div>
+
+
+
   </div>
 
-   <div> <a href="https://linkedin.com/in/aadhyaputtur/"> <img src="../images/linkedinpink.png" alt="LinkedIn" class="icon"> </a>
-    <a href="https://github.com/aadhyap"><img src="../images/githubpink.png" alt="git" class="icon" ></a> </div>
+
+  <div id = "Projects">
+
+    <div class="project-section">
+      <h1 class="medium">Projects</h1>
+    </div>
+    <div class="project-container">
+      <a href="https://users.wpi.edu/~mmaghelih/BiQu.html" class="item vision-color">  
+        <div class="project-display">
+          <img src="../images/quadrobot.png" alt="quadruped robot" >
+        </div>
+        <div class = "project-description">
+          <div class="project-title">
+            <h1>Bimodal Quadruped Robot</h1>
+            <span class="arrow vision-color">↗</span>
+          </div>
+          <p>The development of a quadruped robot named Solo 12, which will be integrated to switch seamlessly between quadrupedal and bipedal modes of locomotion. I lead the development of the use of computer vision technology for person tracking.</p>
+          <div class="tools-used-container vision-color">
+            <p>C++</p><p>Linux</p>
+          </div>
+        </div> 
+      </a>
+      <a href="https://github.com/CS3733-D22-Team-A/AgileAngels" class="item vision-color">  
+        <div class="project-display">
+          <img src="images/hospital.png" alt="quadruped robot" >
+        </div>
+        <div class = "project-description">
+          <div class="project-title">
+            <h1>Mass General Brigham</h1>
+            <span class="arrow vision-color">↗</span>
+          </div>
+          <p>I led the development of a full-stack Java application prototype as part of a 10 person, Agile Scrum team. We created a java application for employees of Mass General Brigham HospitalMy key contributions were leading the software team, designing the backend, designing the UI </p>
+          <div class="tools-used-container vision-color">
+            <p>Java</p><p>Apache</p><p>JavaFX</p><p>Agile</p><p>Figma</p>
+          </div>
+        </div> 
+      </a>
+      <a href="https://prolearn.mit.edu/build-small-radar-system" class="item vision-color">  
+        <div class="project-display">
+          <img src="images/radar.png" alt="quadruped robot" >
+        </div>
+        <div class = "project-description">
+          <div class="project-title">
+            <h1>Mass General Brigham</h1>
+            <span class="arrow vision-color">↗</span>
+          </div>
+          <p>I implemented the coffee can radar for the MIT Lincoln Labs Radar Course to work with the Arduino MKRZero, reducing communication speeds of radar by 20 ms.</p>
+          <div class="tools-used-container vision-color">
+            <p>MATLAB</p><p>Radar</p><p>Serial Communication</p><p>Arduino</p><p>oscilloscope</p>
+          </div>
+        </div> 
+      </a>
+      <a href="https://www.youtube.com/watch?v=yBG85EsSapw" class="item vision-color">  
+        <div class="project-display">
+          <img src="images/mask.png" alt="quadruped robot" >
+        </div>
+        <div class = "project-description">
+          <div class="project-title">
+            <h1>Mass General Brigham</h1>
+            <span class="arrow vision-color">↗</span>
+          </div>
+          <p>Won 2nd Place at Worcester Polytechnic Institute’s COVID Innovation Challenge. In 3 days we prototyped a PPE mask and I implemented an app which is useful for the user to keep track of their symptoms.
+          </p>
+          <div class="tools-used-container vision-color">
+            <p>Google Maps API</p><p>Android Studios</p><p>Java</p><p>Prototype</p><p>Pitch Idea</p>
+          </div>
+        </div> 
+      </a>
+
+    </div>
   </div>
+</div>
+
+
+
 </body>
 </html>
