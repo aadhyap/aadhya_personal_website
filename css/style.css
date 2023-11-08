@@ -12,8 +12,18 @@
 
 }
 
-.button:hover {
-  color: wheat
+
+
+.button:hover   {
+  color: #75FCC0;
+
+  
+  
+}
+.button:hover.vision-color  {
+  color:#E35D75;
+
+  
   
 }
 
