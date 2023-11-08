@@ -17,12 +17,19 @@
   
 }
 
+
+
+
+
+
 .software_button{
+ 
   background-color: rgba(117,252,192,.3);
   border-radius: 10px;
 
 
 }
+
 
 .software_button:hover{
   background-color: rgba(227,93,117,.3);
@@ -157,18 +164,43 @@ a {
   flex-basis: 605px;
   flex-direction: column;
   text-align: left;
-  margin-left: 120px;
+  margin-left: 90px;
 
 
 }
 
 .profile{
-  height: auto;
-  width: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 500px; 
+  height: 500px;
+  border-radius: 50%; 
+  overflow: hidden;
+  position: relative;
+ 
+  
 
+}
+
+.vision-border{
+  border: 2px solid #E35D75;
+
+
+}
+
+.software-border{
+  border: 2px solid #75FCC0;
+
+
+}
+
+
+
+
+.profile img {
+  width: auto; 
+  height: 100%; 
+  position: absolute;
+  left: -30px;
+  filter: blur(0.5px);
 }
 
 img {
