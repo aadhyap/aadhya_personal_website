@@ -11,7 +11,10 @@
   
   
 
-}
+} 
+
+
+
 
 
 
@@ -335,13 +338,33 @@ img {
   justify-content: space-between;
 }
 
+
+
 .project-description h1{
   font-size: 20px;
 }
 
+@media (max-width: 600px) {
+  /* Adjust font size for smaller screens */
+  .project-description h1 {
+    font-size: 18px;
+  }
+}
+
+
+
 .project-description p{
   font-size: 15px;
 }
+@media (max-width: 600px) {
+  .project-description p{
+    font-size: 14px;
+  }
+  
+}
+
+
+
 
 .project-title{
   display: flex;
@@ -375,6 +398,13 @@ img {
   border: 1px solid #75FCC0;
   font-size: 15px;
   color: #75FCC0;
+  
+}
+
+@media (max-width: 600px) {
+  .tools-used-container p{
+    font-size: 14px;
+  }
   
 }
 
