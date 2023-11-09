@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   
   
 
@@ -25,6 +26,14 @@
 
   
   
+}
+
+.learnmore{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 90px 0px;
+
 }
 
 
