@@ -240,6 +240,7 @@ a {
   align-items: center;
   justify-content:space-around;
   padding: 0px 0px 0px 0px;
+  margin-top: 50px;
  
 
 
@@ -265,7 +266,7 @@ a {
   text-align: center;
   justify-content: center;
   align-items: center;
-
+  
 }
 .vent-titles{
   width: 400px;
