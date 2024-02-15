@@ -201,6 +201,36 @@ a {
   
 
 }
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .current-project {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.current-project{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  align-items: center;
+  justify-content: center; /* This will center the items horizontally */
+  flex-wrap: wrap;
+  
+
+}
+
+
+.vertical-line {
+    width: 1px; /* Line width */
+    height: 400px; /* Line height */
+    background-color: #75FCC0;
+    margin-left: 50px;
+
+}
 
 .vision-border{
   border: 2px solid #E35D75;
@@ -266,6 +296,7 @@ img {
 .project-section{
   padding-left: 190px;
   
+  
 
 }
 
@@ -280,6 +311,7 @@ img {
   row-gap: 15px;
   padding: 16px;
   padding-bottom: 200px;
+  
 
 
   
